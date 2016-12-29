@@ -1,0 +1,9 @@
+{% extends 'recipes/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+    {% if recipe %}
+        <h1>{{ recipe.name }}</h1>
+        {{ recipe.content }}
+    {% endif %}
+{% endblock %}

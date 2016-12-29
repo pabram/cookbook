@@ -1,0 +1,30 @@
+{% extends 'recipes/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+    <h2>Cookbook</h2>
+    <div>
+        Haj der <br />
+        <strong>{{ boldmessage }}</strong>
+    </div>
+    <div>
+        {% if categories %}
+            <ul>
+                {% for category in categories %}
+                <li>
+                    <a href="{% url 'show_category' category.slug %}">{{ category.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            There are no categories.
+        {% endif %}
+    </div>
+    <div>
+        <a href="{% url 'add_category' %}">Dodaj kategorię</a>
+    </div>
+
+    <div>
+        <a href="{% url 'about' %}">About</a>
+        <img src="{% static "images/kucharz.png" %}" alt="No zgadnij" />
+    </div>
+{% endblock %}

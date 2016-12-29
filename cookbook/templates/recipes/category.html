@@ -1,0 +1,22 @@
+{% extends 'recipes/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+    {% if category %}
+        {{ category.name }}
+        <a href="{% url 'add_recipe' category.slug %}">Dodaj przepis</a>
+        {% if recipes %}
+            {% for recipe in recipes %}
+                <ul>
+                    <li><a href="{% url 'show_recipe' category.slug recipe.slug %}">{{ recipe.name }}</a>
+                        - {{ recipe.description }}</li>
+                </ul>
+            {% endfor %}
+        {% else %}
+            <h6>Obecnie nie ma przepisów w tej kategorii.</h6>
+        {% endif %}
+    {% else %}
+        <h3>Podana kategoria nie istnieje!</h3>
+    {% endif %}
+{% endblock %}
+
