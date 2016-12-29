@@ -1,3 +1,13 @@
 h1 {
     color: #FCA205;
 }
+img {
+    width: 100%;
+    height: auto;
+}
+.sidebar {
+    margin-top: 50px;
+}
+.col-md-9 {
+    margin-top: 50px;
+}
