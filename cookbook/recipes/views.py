@@ -1,12 +1,18 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from recipes.models import Category, Recipe
-from recipes.forms import CategoryForm, RecipeForm
+from recipes.forms import CategoryForm, RecipeForm, UserForm, UserProfileForm
+from django.http import HttpResponse, HttpResponseRedirect
+from django.contrib.auth import authenticate, login, logout
+from django.core.urlresolvers import reverse
+from django.contrib.auth.decorators import login_required
+from datetime import datetime
 
 
 def index(request):
-    category_list = Category.objects.order_by('-likes')
-    context_dict = {'categories': category_list}
+    category_list = Category.objects.order_by('-views')[:5]
+    most_viewed = Recipe.objects.order_by('-views')[:3]
+    second_most = Recipe.objects.order_by('-views')[3:6]
+    context_dict = {'categories': category_list, 'most_viewed': most_viewed, 'second_most': second_most}
     return render(request, 'recipes/index.html', context_dict)
 
 
@@ -29,6 +35,7 @@ def show_category(request, category_name_slug):
     return render(request, 'recipes/category.html', context_dict)
 
 
+@login_required
 def add_category(request):
     form = CategoryForm()
 
@@ -43,6 +50,7 @@ def add_category(request):
     return render(request, 'recipes/add_category.html', {'form': form})
 
 
+@login_required
 def add_recipe(request, category_name_slug):
     try:
         category = Category.objects.get(slug=category_name_slug)
@@ -76,3 +84,7 @@ def show_recipe(request, category_name_slug, recipe_name_slug):
         context_dict['recipe'] = None
 
     return render(request, 'recipes/recipe.html', context_dict)
+
+@login_required
+def restricted(request):
+    return render(request, 'rango/restricted.html')

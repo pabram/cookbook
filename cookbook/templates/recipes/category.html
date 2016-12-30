@@ -3,12 +3,13 @@
 
 {% block body_block %}
     {% if category %}
-        {{ category.name }}
+    <h1>{{ category.name }}</h1>
         <a href="{% url 'add_recipe' category.slug %}">Dodaj przepis</a>
         {% if recipes %}
             {% for recipe in recipes %}
                 <ul>
-                    <li><a href="{% url 'show_recipe' category.slug recipe.slug %}">{{ recipe.name }}</a>
+                    <li><a href="{% url 'show_recipe' category.slug recipe.slug %}">{{ recipe.name }}<br>
+                    <img src="{{ recipe.photo.url }}" </a>
                         - {{ recipe.description }}</li>
                 </ul>
             {% endfor %}

@@ -3,9 +3,9 @@
 
 {% block body_block %}
     {% if recipe %}
-        <h1>{{ recipe.name }}</h1></br>
-        <strong>{{ recipe.description }}</strong></br>
-        <img src="{{ recipe.photo.url }}" class="zdjecie-przepisu"></br>
+        <h1>{{ recipe.name }}</h1><br>
+        <strong>{{ recipe.description }}</strong><br>
+        <img src="{{ recipe.photo.url }}" class="zdjecie-przepisu"><br>
         {{ recipe.content }}
     {% endif %}
 {% endblock %}
