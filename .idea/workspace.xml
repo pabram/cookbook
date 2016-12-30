@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="020ee429-65b7-49d6-9fa8-ac11e5f08cf2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookbook/templates/recipes/cats.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/cookbook/urls.py" afterPath="$PROJECT_DIR$/cookbook/cookbook/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/recipes/forms.py" afterPath="$PROJECT_DIR$/cookbook/recipes/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/recipes/models.py" afterPath="$PROJECT_DIR$/cookbook/recipes/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/recipes/views.py" afterPath="$PROJECT_DIR$/cookbook/recipes/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/static/css/recipes.css" afterPath="$PROJECT_DIR$/cookbook/static/css/recipes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/templates/recipes/base.html" afterPath="$PROJECT_DIR$/cookbook/templates/recipes/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/templates/recipes/index.html" afterPath="$PROJECT_DIR$/cookbook/templates/recipes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html" afterPath="$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookbook/templates/recipes/recipe.html" afterPath="$PROJECT_DIR$/cookbook/templates/recipes/recipe.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +27,32 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/recipes/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="329">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbook/cookbook/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookbook/cookbook/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+              <folding>
+                <element signature="e#697#738#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +61,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/recipes/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="82" lean-forward="false" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+            <state relative-caret-position="185">
+              <caret line="18" column="89" lean-forward="false" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -46,8 +71,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/recipes/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="306">
+              <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -58,8 +83,8 @@
       <file leaf-file-name="recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="126">
+              <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -68,41 +93,29 @@
       <file leaf-file-name="add_recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="7" column="133" lean-forward="false" selection-start-line="7" selection-start-column="133" selection-end-line="7" selection-end-column="133" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/category.html">
+      <file leaf-file-name="add_category.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipes_template_tags.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbook/recipes/templatetags/recipes_template_tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,16 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,32 +155,32 @@
         <option value="$PROJECT_DIR$/cookbook/templates/index.html" />
         <option value="$PROJECT_DIR$/cookbook/templates/base.html" />
         <option value="$PROJECT_DIR$/cookbook/cookbook/settings.py" />
-        <option value="$PROJECT_DIR$/cookbook/cookbook/urls.py" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/about.html" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/show_category.html" />
         <option value="$PROJECT_DIR$/cookbook/recipes/migrations/forms.py" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/add_category.html" />
-        <option value="$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html" />
         <option value="$PROJECT_DIR$/cookbook/recipes/urls.py" />
         <option value="$PROJECT_DIR$/cookbook/recipes/admin.py" />
-        <option value="$PROJECT_DIR$/cookbook/templates/recipes/recipe.html" />
-        <option value="$PROJECT_DIR$/cookbook/recipes/views.py" />
-        <option value="$PROJECT_DIR$/cookbook/recipes/forms.py" />
-        <option value="$PROJECT_DIR$/cookbook/recipes/models.py" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/category.html" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/index.html" />
         <option value="$PROJECT_DIR$/cookbook/recipes/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/cookbook/recipes/templatetags/recipes_template_tags.py" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/base.html" />
         <option value="$PROJECT_DIR$/cookbook/templates/recipes/cats.html" />
+        <option value="$PROJECT_DIR$/cookbook/cookbook/urls.py" />
+        <option value="$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html" />
+        <option value="$PROJECT_DIR$/cookbook/recipes/views.py" />
+        <option value="$PROJECT_DIR$/cookbook/templates/recipes/recipe.html" />
+        <option value="$PROJECT_DIR$/cookbook/recipes/forms.py" />
+        <option value="$PROJECT_DIR$/cookbook/recipes/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="715" />
-    <option name="y" value="52" />
-    <option name="width" value="651" />
-    <option name="height" value="716" />
+    <option name="x" value="360" />
+    <option name="y" value="85" />
+    <option name="width" value="1291" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -423,7 +426,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="52" width="651" height="716" extended-state="4" />
+    <frame x="360" y="85" width="1291" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24827056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -698,13 +701,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookbook/recipes/migrations/forms.py" />
-    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbook/recipes/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -719,68 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/recipes/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/recipes/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="82" lean-forward="false" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/cookbook/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/cookbook/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="122" column="8" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/recipes/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -804,7 +742,7 @@
     <entry file="file://$PROJECT_DIR$/cookbook/recipes/templatetags/recipes_template_tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -822,8 +760,78 @@
     <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/cookbook/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/recipes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/recipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/recipes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/templates/recipes/add_recipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="133" lean-forward="false" selection-start-line="7" selection-start-column="133" selection-end-line="7" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/recipes/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="89" lean-forward="false" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/cookbook/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="e#697#738#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

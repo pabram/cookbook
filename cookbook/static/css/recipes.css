@@ -1,5 +1,9 @@
 h1 {
-    color: #FCA205;
+    color: green;
+}
+.zdjecie-przepisu {
+    width: 300px;
+    height: 300px;
 }
 img {
     width: 100%;
@@ -11,3 +15,4 @@ img {
 .col-md-9 {
     margin-top: 50px;
 }
+

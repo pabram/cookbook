@@ -51,7 +51,7 @@ def add_recipe(request, category_name_slug):
 
     form = RecipeForm()
     if request.method == 'POST':
-        form = RecipeForm(request.POST)
+        form = RecipeForm(request.POST, request.FILES)
         if form.is_valid():
             if category:
                 recipe = form.save(commit=False)

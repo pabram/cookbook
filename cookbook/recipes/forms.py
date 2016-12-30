@@ -13,11 +13,14 @@ class CategoryForm(forms.ModelForm):
 
 
 class RecipeForm(forms.ModelForm):
+    photo = forms.FileField(required=False, help_text="Dodaj zdjęcie swojej potrawy")
     name = forms.CharField(max_length=128, help_text="Nazwa potrawy.")
-    # content = forms.TextField(max_length=1024, help_text="Tutaj umieść swój przepis.")
     description = forms.CharField(max_length=300, help_text="Krótki opis potrawy")
+    content = forms.CharField(widget=forms.Textarea, help_text="Tutaj umieść swój przepis")
     views = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
     slug = forms.CharField(widget=forms.HiddenInput(), required=False)
+
+
 
     class Meta:
         model = Recipe
